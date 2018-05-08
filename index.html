@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="664556375382-2ebgci2ado1svkr592tgn6vmli4qvd00.apps.googleusercontent.com">
+  <title>Coding'sKool</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style1.css">
+	<script src="js/modernizr.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+</script>
+
+<nav>
+    <img src="img/logo.png">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Register</a></li>
+      <li><a href="https://accounts.google.com/">Sign in</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+</nav>
+
+
+  <div class="pimg1">
+    <div class="ptext">
+      <span class="border">
+        Coding'sKool
+      </span>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    </div>
+  </div>
+
+  <section class="section section-light">
+    <h2><b>About</b></h2><br/>
+    <p>
+        Aim of this Coding'sKool project is to impart good computer programming skills in VESIT students and develop an easy and transparent mechanism to recognize the student's computer programming skills.
+        As a part of the progress measure, this project defines 4 programmer's proficiency levels(PPL) and you need to clear them as the code progress. Description of each level is given below
+    </p>
+  </section>
+
+  <div class="pimg2">
+    <div class="ptext">
+      <span class="border trans">
+        Know your PPL and get certified as a level programmer!
+      </span>
+    </div>
+  </div>
+
+  <section class="section section-dark">
+    <h2>Section Two</h2>
+    <section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/images.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Level 0</h2>
+				<p>Prerequisite</p>
+                <ul><li>Student has basic Know-How of computer programming</li></ul>
+                <p>To be awarded to any student who has taken and cleared any programming course</p>
+				<a href="Level0.html" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/images.png" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Level 1</h2>
+				<p>Prerequisite</p><ul><li>Must have qualified Level 0</li></ul><p>To be awarded to any student who has following skills<ul><li>Does proper indentation while writing a computer program</li><li>Has typing speed of minimum 30 wpm</li><li>Has solved at least 50 intermediate level competitive / logical problems</li><li>Has above average aptitude(Level 1)</li>
+                <li>Knows basic algorithms viz. Sorting, Searching, etc.</li></ul></p>
+				<a href="level1.html" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/images.png" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Level 2</h2>
+				<p>Prerequisite</p><ul><li>Must have qualified Level 1</li></ul>
+				<p><ul><li>To be awarded to any student who has following skills<li> Has typing speed of minimum 40 wpm
+				</li><li> Knows basic system troubleshooting
+				</li><li>Has good idea of Computer Networking
+				</li><li>Has good idea of DBMS
+				</li><li>Knows advanced algorithms viz.<ul></li><li>
+				Trees
+				</li><li> Graph </li></ul>
+				<li>Has good idea of OOP</li><li>
+
+				Has developed at least one good Web App or Mobile App
+				</li><li>Has solved at least 100 competitive / logical problems</li>
+				<li>Knows Linux basics</li>
+				<li>Has a good aptitude (Level 2)</li>
+				<li>Has proficiency with GitHub or similar platform.</li>
+				</li></li></ul>
+				<a href="Level2.html" class="cd-read-more">Read more</a>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-location">
+				<img src="img/images.png" alt="Location">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Level 3</h2>
+				<p>Prerequisite</p><ul><li>Must have qualified Level 2</li></ul><p>To be awarded to any student who has following skills<ul><li>Student should have developed a fully functioning Web App, as well as a Mobile App</li><li>Student should be an advanced user of Linux Operating System</li><li>Student should have good idea of server security concepts</li><li>Student should have good idea of setting up clusters and cloud</li>
+                <li>Criterion for awarding ‘Level 3’ should be decided by a panel of experts and the same should be updated from time to time.</li></ul></p>
+				<a href="#" class="cd-read-more">Read more</a>
+
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/images.png" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Final Section</h2>
+				<p>Congratulations! You have completed all levels!</p>
+				
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+	</section> <!-- cd-timeline -->
+  </section>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
